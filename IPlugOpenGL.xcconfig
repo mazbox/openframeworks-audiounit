@@ -1,0 +1,88 @@
+#include "wdl-ol/common.xcconfig"
+WDL_PATH = $(SRCROOT)/wdl-ol/WDL
+IPLUG_PATH = $(WDL_PATH)/IPlug
+
+//------------------------------
+// Global settings
+
+// the basename of the vst, vst3, app, component, dpm, aaxplugin
+BINARY_NAME = ofxAudioPluginExample
+
+ADDITIONAL_INCLUDES = // $(SRCROOT)/../../../MyDSP/
+
+// for jack headers
+//ADDITIONAL_APP_INCLUDES = /usr/local/include
+
+// Flags to pass to compiler for all builds
+GCC_CFLAGS = -Wno-write-strings
+
+//------------------------------
+// Preprocessor definitions
+
+// Preprocessor definitions for all VST builds
+VST_DEFS = VST_API VST_FORCE_DEPRECATED
+
+VST3_DEFS = VST3_API
+
+// Preprocessor definitions for all AU builds
+AU_DEFS = AU_API
+
+RTAS_DEFS = RTAS_API
+
+AAX_DEFS = AAX_API
+
+APP_DEFS = SA_API __MACOSX_CORE__ //__UNIX_JACK__
+
+IOS_DEFS = SA_API
+// Preprocessor definitions for all Debug builds
+DEBUG_DEFS = _DEBUG
+
+// Preprocessor definitions for all Release builds
+RELEASE_DEFS = NDEBUG //DEMO_VERSION
+
+// Preprocessor definitions for all Tracer builds
+TRACER_DEFS = TRACER_BUILD NDEBUG
+
+// Preprocessor definitions for cocoa uniqueness (all builds)
+// If you want to use swell inside of iplug, you need to make SWELL_APP_PREFIX unique too
+COCOA_DEFS = COCOA_PREFIX=vofxAudioPluginExample SWELL_APP_PREFIX=Swell_vofxAudioPluginExample SWELL_FORCE_COCOA_TEXT
+
+//------------------------------
+// Release build options
+
+//Enable/Disable Profiling code
+PROFILE = NO //NO, YES - enable this if you want to use shark to profile a plugin
+
+// GCC optimization level -
+// None: [-O0] Fast: [-O, -O1] Faster:[-O2] Fastest: [-O3] Fastest, smallest: Optimize for size. [-Os]
+RELEASE_OPTIMIZE = 3 //0,1,2,3,s
+
+//------------------------------
+// Debug build options
+DEBUG_OPTIMIZE = 0 //0,1,2,3,s
+
+
+
+
+
+//THE PATH TO THE ROOT OF OUR OF PATH RELATIVE TO THIS PROJECT.
+//THIS NEEDS TO BE DEFINED BEFORE CoreOF.xcconfig IS INCLUDED
+OF_PATH = ../../..
+
+//THIS HAS ALL THE HEADER AND LIBS FOR OF CORE
+#include "../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig"
+
+//ICONS - NEW IN 0072
+ICON_NAME_DEBUG = icon-debug.icns
+ICON_NAME_RELEASE = icon.icns
+ICON_FILE_PATH = $(OF_PATH)/libs/openFrameworksCompiled/project/osx/
+
+//IF YOU WANT AN APP TO HAVE A CUSTOM ICON - PUT THEM IN YOUR DATA FOLDER AND CHANGE ICON_FILE_PATH to:
+ICON_FILE_PATH = bin/data/
+
+OTHER_LDFLAGS = $(OF_CORE_LIBS)
+HEADER_SEARCH_PATHS = $(OF_CORE_HEADERS)
+
+
+
+

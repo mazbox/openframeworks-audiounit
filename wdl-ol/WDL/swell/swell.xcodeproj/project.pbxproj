@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		EAA36F7117B7AFAF00D0ECFF /* commctrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commctrl.h; sourceTree = "<group>"; };
+		EAA36F7217B7AFAF00D0ECFF /* mac_resgen.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = mac_resgen.php; sourceTree = "<group>"; };
+		EAA36F7317B7AFAF00D0ECFF /* Makefile.libSwell */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.libSwell; sourceTree = "<group>"; };
+		EAA36F7417B7AFAF00D0ECFF /* shlobj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shlobj.h; sourceTree = "<group>"; };
+		EAA36F7517B7AFAF00D0ECFF /* swell-appstub-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-appstub-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F7617B7AFAF00D0ECFF /* swell-appstub.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-appstub.mm"; sourceTree = "<group>"; };
+		EAA36F7717B7AFAF00D0ECFF /* swell-dlg-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-dlg-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F7817B7AFAF00D0ECFF /* swell-dlg.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-dlg.mm"; sourceTree = "<group>"; };
+		EAA36F7917B7AFAF00D0ECFF /* swell-dlggen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swell-dlggen.h"; sourceTree = "<group>"; };
+		EAA36F7A17B7AFAF00D0ECFF /* swell-functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swell-functions.h"; sourceTree = "<group>"; };
+		EAA36F7B17B7AFAF00D0ECFF /* swell-gdi-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-gdi-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F7C17B7AFAF00D0ECFF /* swell-gdi-internalpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swell-gdi-internalpool.h"; sourceTree = "<group>"; };
+		EAA36F7D17B7AFAF00D0ECFF /* swell-gdi-lice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-gdi-lice.cpp"; sourceTree = "<group>"; };
+		EAA36F7E17B7AFAF00D0ECFF /* swell-gdi.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-gdi.mm"; sourceTree = "<group>"; };
+		EAA36F7F17B7AFAF00D0ECFF /* swell-ini.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-ini.cpp"; sourceTree = "<group>"; };
+		EAA36F8017B7AFAF00D0ECFF /* swell-internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swell-internal.h"; sourceTree = "<group>"; };
+		EAA36F8117B7AFAF00D0ECFF /* swell-kb-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-kb-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F8217B7AFAF00D0ECFF /* swell-kb.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-kb.mm"; sourceTree = "<group>"; };
+		EAA36F8317B7AFAF00D0ECFF /* swell-menu-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-menu-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F8417B7AFAF00D0ECFF /* swell-menu.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-menu.mm"; sourceTree = "<group>"; };
+		EAA36F8517B7AFAF00D0ECFF /* swell-menugen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swell-menugen.h"; sourceTree = "<group>"; };
+		EAA36F8617B7AFAF00D0ECFF /* swell-misc-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-misc-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F8717B7AFAF00D0ECFF /* swell-misc.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-misc.mm"; sourceTree = "<group>"; };
+		EAA36F8817B7AFAF00D0ECFF /* swell-miscdlg-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-miscdlg-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F8917B7AFAF00D0ECFF /* swell-miscdlg-gtk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-miscdlg-gtk.cpp"; sourceTree = "<group>"; };
+		EAA36F8A17B7AFAF00D0ECFF /* swell-miscdlg.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-miscdlg.mm"; sourceTree = "<group>"; };
+		EAA36F8B17B7AFAF00D0ECFF /* swell-modstub-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-modstub-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F8C17B7AFAF00D0ECFF /* swell-modstub.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-modstub.mm"; sourceTree = "<group>"; };
+		EAA36F8D17B7AFAF00D0ECFF /* swell-types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swell-types.h"; sourceTree = "<group>"; };
+		EAA36F8E17B7AFAF00D0ECFF /* swell-wnd-generic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "swell-wnd-generic.cpp"; sourceTree = "<group>"; };
+		EAA36F8F17B7AFAF00D0ECFF /* swell-wnd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "swell-wnd.mm"; sourceTree = "<group>"; };
+		EAA36F9017B7AFAF00D0ECFF /* swell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swell.cpp; sourceTree = "<group>"; };
+		EAA36F9117B7AFAF00D0ECFF /* swell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swell.h; sourceTree = "<group>"; };
+		EAA36F9217B7AFAF00D0ECFF /* swellappmain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swellappmain.h; sourceTree = "<group>"; };
+		EAA36F9317B7AFAF00D0ECFF /* swellappmain.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = swellappmain.mm; sourceTree = "<group>"; };
+		EAA36F9417B7AFAF00D0ECFF /* test-gtk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "test-gtk.cpp"; sourceTree = "<group>"; };
+		EAA36F9517B7AFAF00D0ECFF /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		EAA36F9617B7AFAF00D0ECFF /* windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windows.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		EAA36F6B17B7AFAF00D0ECFF = {
+			isa = PBXGroup;
+			children = (
+				EAA36F7117B7AFAF00D0ECFF /* commctrl.h */,
+				EAA36F7217B7AFAF00D0ECFF /* mac_resgen.php */,
+				EAA36F7317B7AFAF00D0ECFF /* Makefile.libSwell */,
+				EAA36F7417B7AFAF00D0ECFF /* shlobj.h */,
+				EAA36F7517B7AFAF00D0ECFF /* swell-appstub-generic.cpp */,
+				EAA36F7617B7AFAF00D0ECFF /* swell-appstub.mm */,
+				EAA36F7717B7AFAF00D0ECFF /* swell-dlg-generic.cpp */,
+				EAA36F7817B7AFAF00D0ECFF /* swell-dlg.mm */,
+				EAA36F7917B7AFAF00D0ECFF /* swell-dlggen.h */,
+				EAA36F7A17B7AFAF00D0ECFF /* swell-functions.h */,
+				EAA36F7B17B7AFAF00D0ECFF /* swell-gdi-generic.cpp */,
+				EAA36F7C17B7AFAF00D0ECFF /* swell-gdi-internalpool.h */,
+				EAA36F7D17B7AFAF00D0ECFF /* swell-gdi-lice.cpp */,
+				EAA36F7E17B7AFAF00D0ECFF /* swell-gdi.mm */,
+				EAA36F7F17B7AFAF00D0ECFF /* swell-ini.cpp */,
+				EAA36F8017B7AFAF00D0ECFF /* swell-internal.h */,
+				EAA36F8117B7AFAF00D0ECFF /* swell-kb-generic.cpp */,
+				EAA36F8217B7AFAF00D0ECFF /* swell-kb.mm */,
+				EAA36F8317B7AFAF00D0ECFF /* swell-menu-generic.cpp */,
+				EAA36F8417B7AFAF00D0ECFF /* swell-menu.mm */,
+				EAA36F8517B7AFAF00D0ECFF /* swell-menugen.h */,
+				EAA36F8617B7AFAF00D0ECFF /* swell-misc-generic.cpp */,
+				EAA36F8717B7AFAF00D0ECFF /* swell-misc.mm */,
+				EAA36F8817B7AFAF00D0ECFF /* swell-miscdlg-generic.cpp */,
+				EAA36F8917B7AFAF00D0ECFF /* swell-miscdlg-gtk.cpp */,
+				EAA36F8A17B7AFAF00D0ECFF /* swell-miscdlg.mm */,
+				EAA36F8B17B7AFAF00D0ECFF /* swell-modstub-generic.cpp */,
+				EAA36F8C17B7AFAF00D0ECFF /* swell-modstub.mm */,
+				EAA36F8D17B7AFAF00D0ECFF /* swell-types.h */,
+				EAA36F8E17B7AFAF00D0ECFF /* swell-wnd-generic.cpp */,
+				EAA36F8F17B7AFAF00D0ECFF /* swell-wnd.mm */,
+				EAA36F9017B7AFAF00D0ECFF /* swell.cpp */,
+				EAA36F9117B7AFAF00D0ECFF /* swell.h */,
+				EAA36F9217B7AFAF00D0ECFF /* swellappmain.h */,
+				EAA36F9317B7AFAF00D0ECFF /* swellappmain.mm */,
+				EAA36F9417B7AFAF00D0ECFF /* test-gtk.cpp */,
+				EAA36F9517B7AFAF00D0ECFF /* test.cpp */,
+				EAA36F9617B7AFAF00D0ECFF /* windows.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EAA36F7017B7AFAF00D0ECFF /* swell */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = EAA36F9717B7AFAF00D0ECFF /* Build configuration list for PBXLegacyTarget "swell" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Volumes/MAZBOX AIR 2/of_v0.8.0_osx_release/apps/myApps/audioPlugin/wdl-ol/WDL/swell";
+			dependencies = (
+			);
+			name = swell;
+			passBuildSettingsInEnvironment = 1;
+			productName = swell;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		EAA36F6C17B7AFAF00D0ECFF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EAA36F6F17B7AFAF00D0ECFF /* Build configuration list for PBXProject "swell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAA36F6B17B7AFAF00D0ECFF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA36F7017B7AFAF00D0ECFF /* swell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		EAA36F6D17B7AFAF00D0ECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		EAA36F6E17B7AFAF00D0ECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		EAA36F9817B7AFAF00D0ECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = swell;
+			};
+			name = Debug;
+		};
+		EAA36F9917B7AFAF00D0ECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = swell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA36F6F17B7AFAF00D0ECFF /* Build configuration list for PBXProject "swell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA36F6D17B7AFAF00D0ECFF /* Debug */,
+				EAA36F6E17B7AFAF00D0ECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA36F9717B7AFAF00D0ECFF /* Build configuration list for PBXLegacyTarget "swell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA36F9817B7AFAF00D0ECFF /* Debug */,
+				EAA36F9917B7AFAF00D0ECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA36F6C17B7AFAF00D0ECFF /* Project object */;
+}
